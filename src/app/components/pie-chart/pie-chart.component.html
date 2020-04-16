@@ -1,0 +1,16 @@
+<div class="row title">
+    <h4>{{ data.leyenda }}</h4>    
+</div>
+<div class="row">
+    <div class="chart">
+    <canvas baseChart
+        [data]="pieChartData"
+        [labels]="pieChartLabels"
+        [chartType]="pieChartType"          
+        [options]="pieChartOptions"
+        [colors]="pieChartColors"
+        [legend]="pieChartLegend">
+    </canvas>
+    </div>
+</div>
+  
